@@ -1,0 +1,11 @@
+body{
+    
+    background-image: linear-gradient(to bottom, rgb(219, 230, 236)35%, rgb(233, 236, 238)65%);
+}
+.carouselRow{
+    cursor: grab;
+}
+.inner-carousel{
+    -webkit-box-flex: initial;
+    /* background-color: rgb(95, 92, 92); */
+}

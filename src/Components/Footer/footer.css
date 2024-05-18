@@ -1,0 +1,98 @@
+<motion.li
+className="snap-always snap-center w-full"
+animate={{
+  x: "100vw",
+  opacity: 2,
+  height: "100%",
+  width: "1500px",
+ 
+}}
+initial={{ opacity: 0.5 }}
+transition={{
+  duration: 10,
+  delay: 0,
+
+  timeConstant: "infinite",
+  damping: 100,
+}}
+>
+<NavLink path="" className="snap-always snap-center">
+  <img
+    alt="Amazon fashion"
+    src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/Associates/GW_PC_3000_1200._CB579438052_.jpg"
+    height="100%"
+    width="1500px"
+    data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/Associates/GW_PC_3000_1200._CB579438052_.jpg"
+  />
+</NavLink>
+</motion.li>
+<li>
+<NavLink path="">
+  <img
+    alt="Home improvement essentials"
+    src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/June/HMD/5299-HI---Holi-Under-499-Pc._CB579744895_.jpg"
+    height="100%"
+    width="1500px"
+    data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/June/HMD/5299-HI---Holi-Under-499-Pc._CB579744895_.jpg"
+  />
+</NavLink>
+</li>
+<li className="snap-always snap-center ...">
+<NavLink path="">
+  <img
+    alt="Daily essentials"
+    src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Consumables/GW/Mar/Hero/Holi/Slide6-GW_PC_Hero_3000-1200._CB579540968_.jpg"
+    height="100%"
+    width="1500px"
+    data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Consumables/GW/Mar/Hero/Holi/Slide6-GW_PC_Hero_3000-1200._CB579540968_.jpg"
+  />
+</NavLink>
+</li>
+<li className="snap-always snap-center ...">
+<NavLink path="">
+  <img
+    alt="Unrec"
+    src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG24/Smart_Watches/Holi24_GW_PC_Hero_1500X600_Smartwatch._CB579571920_.jpg"
+    height="100%"
+    width="3000px"
+    data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/IMG24/Smart_Watches/Holi24_GW_PC_Hero_1500X600_Smartwatch._CB579571920_.jpg"
+  />
+</NavLink>
+</li>
+<li className="snap-always snap-center ...">
+<NavLink path="">
+  <img
+    alt="Amazon fashion"
+    src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/Associates/GW_skin_3000_1200._CB579438052_.jpg"
+    height="100%"
+    width="1500px"
+    data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/Associates/GW_skin_3000_1200._CB579438052_.jpg"
+  />
+</NavLink>
+</li>
+<li className="snap-always snap-center ...">
+<NavLink path="">
+  <img
+    alt="Cookware &amp; dining"
+    src="https://images-eu.ssl-images-amazon.com/images/G/31/sharooq1/Gw2/5300-Kitchen---Holi-with-citi-bank-strip-Pc._CB579351157_.jpg"
+    height="100%"
+    width="1500px"
+    data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/sharooq1/Gw2/5300-Kitchen---Holi-with-citi-bank-strip-Pc._CB579351157_.jpg"
+  />
+</NavLink>
+</li>
+<li className="snap-always snap-center ...">
+<NavLink path="">
+  <img
+    alt="Daily essentials"
+    src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Consumables/GW/Mar/Hero/Holi/Slide-1-PC_3000-1200._CB579561909_.jpg"
+    height="100%"
+    width="1500px"
+    data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Consumables/GW/Mar/Hero/Holi/Slide-1-PC_3000-1200._CB579561909_.jpg"
+  />
+</NavLink>
+</li>
+async function opencamera() {
+  const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+  video.srcObject = stream;
+}
