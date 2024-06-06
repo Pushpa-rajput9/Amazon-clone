@@ -1,5 +1,7 @@
 # React + Vite
 
+site to view:- https://pushpa-rajput9.github.io/AmazonClone/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
